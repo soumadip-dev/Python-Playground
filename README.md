@@ -4,9 +4,6 @@
   <br>
 </h1>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,react,tailwind,github" alt="Tech Stack" width="230" style="margin: 0 5px;">
-</div>
 
 <h3 align="center" style="margin: 20px 0;">
 A set of intermediate React projects to improve skills and showcase key programming concepts.
