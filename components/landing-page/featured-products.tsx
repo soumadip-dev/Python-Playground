@@ -6,7 +6,7 @@ import ProductCard from '../products/product-card';
 
 export default async function FeaturedProducts() {
   return (
-    <section className="py-20 bg-muted/20">
+    <section className="py-20 bg-muted/40">
       <div className="wrapper">
         <div className="flex items-center justify-between mb-8">
           <SectionHeader
