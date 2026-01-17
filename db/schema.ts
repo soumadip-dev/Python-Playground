@@ -45,3 +45,7 @@ export const products = pgTable(
     organizationIdx: index('products_organization_idx').on(table.organizationId),
   })
 );
+
+//* Type interfaces
+export type Product = typeof products.$inferSelect;
+export type NewProduct = typeof products.$inferInsert;
