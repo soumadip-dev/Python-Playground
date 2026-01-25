@@ -18,8 +18,16 @@ export function createApp() {
     next();
   });
 
-  app.use(notFoundHandler);
+  // health check route
+  app.get('/health', (_req: Request, res: Response) => {
+    res.status(200).json({
+      status: 'ok',
+      uptime: process.uptime(),
+      timestamp: new Date().toISOString(),
+    });
+  });
 
+  app.use(notFoundHandler);
   app.use(errorHandler);
   return app;
 }

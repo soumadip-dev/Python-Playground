@@ -7,11 +7,25 @@ import logger from './lib/logger.lib.js';
 async function bootstrap() {
   try {
     await assertDatabaseConnection();
+
     const app = createApp();
     const server = http.createServer(app);
     const PORT = Number(env.PORT) || 8080;
+
     server.listen(PORT, () => {
       logger.info(`Server is running on: http://localhost:${PORT} 🌐`);
+    });
+
+    // handle server errors
+    server.on('error', (error: NodeJS.ErrnoException) => {
+      if (error.code === 'EADDRINUSE') {
+        logger.error(
+          `Port ${PORT} is already in use. Please stop the running process or use a different port`
+        );
+      } else {
+        logger.error('Failed to start the server', error.message);
+      }
+      process.exit(1);
     });
   } catch (error) {
     logger.error('Failed to start server', (error as Error).message);
