@@ -8,7 +8,7 @@ const EnvSchema = z.object({
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
   DB_HOST: z.string().default('localhost'),
   DB_PORT: z.string().default('6450'),
-  DB_NAME: z.string().default('forumix'),
+  DB_NAME: z.string().default('forumix_app'),
   DB_USER: z.string().default('postgres'),
   DB_PASSWORD: z.string().default('postgres'),
   CLERK_PUBLISHABLE_KEY: z.string().default(''),
