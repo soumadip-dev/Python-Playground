@@ -1,4 +1,4 @@
-import { Pool, QueryResult, QueryResultRow } from 'pg';
+import { Pool, type QueryResult, type QueryResultRow } from 'pg';
 import { env } from '../config/env.config.js';
 import logger from '../lib/logger.lib.js';
 
