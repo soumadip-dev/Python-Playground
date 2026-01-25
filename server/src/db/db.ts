@@ -18,7 +18,7 @@ export async function query<T extends QueryResultRow = QueryResultRow>(
   return result;
 }
 
-export async function assetDatabaseConnection() {
+export async function assertDatabaseConnection() {
   try {
     await pool.query('SELECT 1');
     logger.info('Database connection successful ✅');
