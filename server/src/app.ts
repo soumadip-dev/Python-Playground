@@ -4,9 +4,12 @@ import configureCors from './config/cors.config.js';
 import logger from './lib/logger.lib.js';
 import { notFoundHandler } from './middleware/notFoundHandler.middleware.js';
 import { errorHandler } from './middleware/errorHandler.middleware.js';
+import { clerkMiddleware } from './config/clerk.config.js';
 
 export function createApp() {
   const app: Express = express();
+
+  app.use(clerkMiddleware());
   app.use(helmet());
   app.use(configureCors());
   app.use(express.json()); // parse json request to body
