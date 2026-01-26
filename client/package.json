@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.36.10",
     "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
