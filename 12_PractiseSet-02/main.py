@@ -3,7 +3,8 @@
 # -----------------------------------
 
 """
-1. Write a program that asks the user for a number and determines
+Program 1:
+Ask the user to enter a number and determine
 whether the number is positive, negative, or zero.
 """
 
@@ -18,7 +19,8 @@ else:
 
 
 """
-2. Create a program that checks whether a person is eligible to vote.
+Program 2:
+Check whether a person is eligible to vote.
 A person is eligible if their age is 18 or older.
 """
 
@@ -27,11 +29,12 @@ user_age = int(input("Enter your age: "))
 if user_age >= 18:
     print("You are eligible to vote.")
 else:
-    print("You are not eligible to vote yet.")
+    print("You are not eligible to vote.")
 
 
 """
-3. Write a program that takes a number from the user and checks whether
+Program 3:
+Ask the user for a number and check whether
 the number is even or odd.
 """
 
@@ -48,8 +51,9 @@ else:
 # -----------------------------------
 
 """
-1. Ask the user to enter a day number (1–7) and print the corresponding
-day of the week using a match-case statement.
+Program 4:
+Ask the user to enter a number (1–7) and display
+the corresponding day of the week.
 """
 
 day_number = int(input("Enter a day number (1–7): "))
@@ -74,7 +78,8 @@ match day_number:
 
 
 """
-2. Write a program using match-case that simulates a simple calculator.
+Program 5:
+Create a simple calculator using match-case.
 """
 
 first_number = float(input("Enter the first number: "))
@@ -82,6 +87,7 @@ second_number = float(input("Enter the second number: "))
 operation_symbol = input("Enter an operation (+, -, *, /): ")
 
 match operation_symbol:
+
     case "+":
         result = first_number + second_number
         print("Result:", result)
@@ -110,7 +116,8 @@ match operation_symbol:
 # -----------------------------------
 
 """
-1. Print numbers from 1 to 10 using a for loop.
+Program 6:
+Print numbers from 1 to 10 using a for loop.
 """
 
 for number in range(1, 11):
@@ -118,7 +125,8 @@ for number in range(1, 11):
 
 
 """
-2. Print the multiplication table of a number entered by the user.
+Program 7:
+Print the multiplication table of a number entered by the user.
 """
 
 table_number = int(input("Enter a number to display its multiplication table: "))
@@ -129,7 +137,8 @@ for multiplier in range(1, 11):
 
 
 """
-3. Calculate the sum of all numbers from 1 to 100.
+Program 8:
+Calculate the sum of numbers from 1 to 100.
 """
 
 total_sum = 0
@@ -141,7 +150,8 @@ print("The sum of numbers from 1 to 100 is:", total_sum)
 
 
 """
-4. Print the following star pattern:
+Program 9:
+Print the following star pattern:
 
 *
 **
@@ -158,7 +168,8 @@ for row in range(1, 5):
 # -----------------------------------
 
 """
-1. Print numbers from 1 to 10 using a while loop.
+Program 10:
+Print numbers from 1 to 10 using a while loop.
 """
 
 current_number = 1
@@ -169,8 +180,8 @@ while current_number <= 10:
 
 
 """
-2. Write a program that keeps asking the user to enter a password
-until they enter the correct one.
+Program 11:
+Keep asking the user for a password until the correct password is entered.
 """
 
 correct_password = "abc123"
@@ -184,7 +195,8 @@ print("Access granted.")
 
 
 """
-3. Use a while loop to reverse a given number.
+Program 12:
+Reverse a number using a while loop.
 Example: 123 → 321
 """
 
@@ -197,3 +209,42 @@ while original_number > 0:
     original_number = original_number // 10
 
 print("Reversed number:", reversed_number)
+
+
+# -----------------------------------
+# BREAK, CONTINUE, AND PASS
+# -----------------------------------
+
+"""
+Program 13:
+Print numbers from 1 to 10, but stop the loop
+when the number becomes 7.
+"""
+
+for number in range(1, 11):
+    print(number)
+    if number == 7:
+        break
+
+
+"""
+Program 14:
+Print numbers from 1 to 10 but skip the number 5.
+"""
+
+for number in range(1, 11):
+    if number == 5:
+        continue
+    print(number)
+
+
+"""
+Program 15:
+Loop through numbers from 1 to 5.
+Do nothing when the number is 3.
+"""
+
+for number in range(1, 6):
+    if number == 3:
+        pass
+    print(number)
