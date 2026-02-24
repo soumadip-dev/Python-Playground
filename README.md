@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center" style="margin: 20px 0;">
-A hands-on space to learn and practice Python with small programs and experiments to explore concepts and improve problem-solving skills.
+A hands-on space to learn and practice Python through small programs and experiments, helping explore concepts and improve problem-solving skills.
 </h3>
 
 <div align="center">
@@ -21,7 +21,9 @@ The repository includes examples and practice code for various Python concepts, 
 - Conditional Statements
 - Control Flow and Loops
 - Functions and Lambda Functions
-- Recursion Function
+- Recursive Functions
+- Python Modules (internal, external via pip, and custom-built)
+- Variable Scope and Docstrings
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
