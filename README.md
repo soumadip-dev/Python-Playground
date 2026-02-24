@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center" style="margin: 20px 0;">
-A hands-on space to learn and practice Python. This repository contains small programs and experiments to explore Python concepts and improve problem-solving and programming skills.
+A hands-on space to learn and practice Python with small programs and experiments to explore concepts and improve problem-solving skills.
 </h3>
 
 <div align="center">
