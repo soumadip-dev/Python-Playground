@@ -25,6 +25,7 @@ The repository includes examples and practice code for various Python concepts, 
 - Python Modules (internal, external via pip, and custom-built)
 - Variable Scope and Docstrings
 - list, touple sets, dictionary
+- OOPS(Class, Object, Inheritance, Polymorphism, Abstraction, Encapsulation)
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
