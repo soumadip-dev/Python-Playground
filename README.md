@@ -19,14 +19,16 @@ The repository includes examples and practice code for various Python concepts, 
 - Comments and Escape Sequences
 - String Operations and Slicing
 - Conditional Statements
-- Control Flow and Loops
+- Loops and Control Flow
 - Functions and Lambda Functions
 - Recursive Functions
-- Python Modules (internal, external via pip, and custom-built)
+- Modules (Built-in, External using pip, and Custom Modules)
 - Variable Scope and Docstrings
-- list, touple sets, dictionary
-- OOPS(Class, Object, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order)
-- dunder methods
+- Lists, Tuples, Sets, and Dictionaries
+- Object-Oriented Programming (Classes, Objects, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order)
+- Dunder (Magic) Methods
+- Exception Handling
+- Map, Filter, and Reduce
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
