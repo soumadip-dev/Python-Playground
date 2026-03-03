@@ -26,6 +26,7 @@ The repository includes examples and practice code for various Python concepts, 
 - Variable Scope and Docstrings
 - list, touple sets, dictionary
 - OOPS(Class, Object, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order)
+- dunder methods
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
