@@ -29,6 +29,8 @@ The repository includes examples and practice code for various Python concepts, 
 - Dunder (Magic) Methods
 - Exception Handling
 - Map, Filter, and Reduce
+- walrus operator
+- Args and Kwargs
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
