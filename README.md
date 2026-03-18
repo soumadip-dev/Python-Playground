@@ -31,6 +31,8 @@ The repository includes examples and practice code for various Python concepts, 
 - Map, Filter, and Reduce
 - walrus operator
 - Args and Kwargs
+- file, os, shutil
+- argparse
 - Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
