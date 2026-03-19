@@ -12,28 +12,19 @@ A hands-on space to learn and practice Python through small programs and experim
 
 ## Topics Covered
 
-The repository includes examples and practice code for various Python concepts, such as:
+This repository contains practice programs covering core Python concepts:
 
-- Variables and Data Types
-- Type Casting
-- Comments and Escape Sequences
-- String Operations and Slicing
-- Conditional Statements
-- Loops and Control Flow
-- Functions and Lambda Functions
-- Recursive Functions
-- Modules (Built-in, External using pip, and Custom Modules)
-- Variable Scope and Docstrings
-- Lists, Tuples, Sets, and Dictionaries
-- Object-Oriented Programming (Classes, Objects, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order)
-- Dunder (Magic) Methods
-- Exception Handling
-- Map, Filter, and Reduce
-- walrus operator
-- Args and Kwargs
-- file, os, shutil
-- argparse
-- Basic Python Programs and Exercises
+- Basics: Variables, Data Types, Type Casting, Comments, Escape Sequences
+- Strings: Operations and Slicing
+- Control Flow: Conditional Statements, Loops
+- Functions: Functions, Lambda, Recursion, Args & Kwargs
+- Modules: Built-in, External (pip), Custom Modules
+- Scope & Documentation: Variable Scope, Docstrings
+- Data Structures: Lists, Tuples, Sets, Dictionaries
+- OOP: Classes, Objects, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order
+- Advanced Concepts: Dunder Methods, Exception Handling, Map, Filter, Reduce, Walrus Operator
+- Libraries & Tools: file, os, shutil, argparse, requests, threading, regular expressions, virtual environments
+- Practice: Basic Python Programs and Exercises
 
 More topics will be added as I continue learning and practicing Python.
 
