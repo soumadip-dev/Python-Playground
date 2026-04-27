@@ -15,18 +15,25 @@ A hands-on space to learn and practice Python through small programs and experim
 This repository contains practice programs covering core Python concepts:
 
 - Basics: Variables, Data Types, Type Casting, Comments, Escape Sequences
-- Strings: Operations and Slicing
-- Control Flow: Conditional Statements, Loops
-- Functions: Functions, Lambda, Recursion, Args & Kwargs
+- Strings: Operations, Methods, and Slicing
+- Control Flow: Conditional Statements, Match-Case, Loops (For, While), Break, Continue, Pass
+- Functions: Functions, Lambda, Recursion, Args & Kwargs, Return Values
 - Modules: Built-in, External (pip), Custom Modules
 - Scope & Documentation: Variable Scope, Docstrings
-- Data Structures: Lists, Tuples, Sets, Dictionaries
-- OOP: Classes, Objects, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order
-- Advanced Concepts: Dunder Methods, Exception Handling, Map, Filter, Reduce, Walrus Operator
-- Libraries & Tools: file, os, shutil, argparse, requests, threading, regular expressions, virtual environments
+- Data Structures: Lists, Tuples, Sets, Dictionaries, List Comprehensions
+- OOP: Classes, Objects, Constructors, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order
+- Advanced Concepts: Dunder Methods, Exception Handling (Try, Except, Finally), Map, Filter, Reduce, Walrus Operator, Iterators & Generators
+- File Handling: Reading, Writing, Appending Files, Working with Different File Modes
+- Libraries & Tools: os, shutil, argparse, requests, threading, regular expressions, virtual environments
+- External Modules & Packages: Installation and Usage with pip
 - Practice: Basic Python Programs and Exercises
 
-More topics will be added as I continue learning and practicing Python.
+More topics will be added as learning continues.
+
+## Requirements
+
+- Python 3.x
+- pip (Python package manager)
 
 ## How to Run the Code
 
