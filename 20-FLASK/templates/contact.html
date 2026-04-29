@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+
+<body data-page="contact" style="margin:0; font-family: Arial, sans-serif; background:#f4f4f9;">
+
+<!-- NAVBAR START -->
+<nav style="width:100%; background:#4a90e2; padding:10px 0; position:fixed; top:0; left:0;">
+  <div style="max-width:900px; margin:auto; display:flex; justify-content:space-around;">
+    <a href="/" data-link="home" style="color:#fff; text-decoration:none; padding:8px 12px;">Home</a>
+
+    <a href="/about" data-link="about" style="color:#fff; text-decoration:none; padding:8px 12px;">About</a>
+
+    <a href="/services" data-link="services" style="color:#fff; text-decoration:none; padding:8px 12px;">Services</a>
+
+    <a href="/contact" data-link="contact" style="color:#fff; text-decoration:none; padding:8px 12px;">Contact</a>
+
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+  <!-- PAGE CONTENT -->
+  <div
+    style="max-width:600px; margin:120px auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+
+    <h2 style="text-align:center; color:#4a90e2;">Contact Us</h2>
+
+    <!-- Accordion -->
+    <div>
+
+      <button onclick="toggle(1)" style="width:100%; padding:10px; margin-top:10px;">Email</button>
+      <div id="acc1" style="display:none; padding:10px;">support@memegen.com</div>
+
+      <button onclick="toggle(2)" style="width:100%; padding:10px; margin-top:10px;">Phone</button>
+      <div id="acc2" style="display:none; padding:10px;">+91 9876543210</div>
+
+      <button onclick="toggle(3)" style="width:100%; padding:10px; margin-top:10px;">Address</button>
+      <div id="acc3" style="display:none; padding:10px;">Durgapur, West Bengal, India</div>
+
+    </div>
+
+  </div>
+
+  <script>
+    function toggle(id) {
+      let el = document.getElementById("acc" + id);
+      el.style.display = el.style.display === "block" ? "none" : "block";
+    }
+  </script>
+
+</body>
+
+</html>
