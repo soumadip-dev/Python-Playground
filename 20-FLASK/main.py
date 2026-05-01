@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -13,8 +13,17 @@ def services():
     return render_template("services.html")
 
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET", "POST"])
 def contact():
+    if request.method == "POST":
+        name = request.form["name"]
+        email = request.form["email"]
+
+        with open("file.txt", "a") as f:
+            f.write(f"name: {name}, email: {email} \n")
+
+        return render_template("contact.html")
+
     return render_template("contact.html")
 
 
