@@ -14,19 +14,20 @@ A hands-on space to learn and practice Python through small programs and experim
 
 This repository contains practice programs covering core Python concepts:
 
-- Basics: Variables, Data Types, Type Casting, Comments, Escape Sequences
-- Strings: Operations, Methods, and Slicing
-- Control Flow: Conditional Statements, Match-Case, Loops (For, While), Break, Continue, Pass
-- Functions: Functions, Lambda, Recursion, Args & Kwargs, Return Values
-- Modules: Built-in, External (pip), Custom Modules
-- Scope & Documentation: Variable Scope, Docstrings
-- Data Structures: Lists, Tuples, Sets, Dictionaries, List Comprehensions
-- OOP: Classes, Objects, Constructors, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order
-- Advanced Concepts: Dunder Methods, Exception Handling (Try, Except, Finally), Map, Filter, Reduce, Walrus Operator, Iterators & Generators
-- File Handling: Reading, Writing, Appending Files, Working with Different File Modes
-- Libraries & Tools: os, shutil, argparse, requests, threading, regular expressions, virtual environments
-- External Modules & Packages: Installation and Usage with pip
-- Practice: Basic Python Programs and Exercises
+- **Basics:** Variables, Data Types, Type Casting, Comments, Escape Sequences
+- **Strings:** Operations, Methods, and Slicing
+- **Control Flow:** Conditional Statements, Match-Case, Loops (For, While), Break, Continue, Pass
+- **Functions:** Functions, Lambda, Recursion, Args & Kwargs, Return Values
+- **Modules:** Built-in, External (pip), Custom Modules
+- **Scope & Documentation:** Variable Scope, Docstrings
+- **Data Structures:** Lists, Tuples, Sets, Dictionaries, List Comprehensions
+- **OOP:** Classes, Objects, Constructors, Inheritance, Composition, Polymorphism, Abstraction, Encapsulation, Method Resolution Order
+- **Advanced Concepts:** Dunder Methods, Exception Handling (Try, Except, Finally), Map, Filter, Reduce, Walrus Operator, Iterators & Generators
+- **File Handling:** Reading, Writing, Appending Files, Working with Different File Modes
+- **Libraries & Tools:** os, shutil, argparse, requests, threading, regular expressions, virtual environments
+- **External Modules & Packages:** Installation and Usage with pip
+- **Flask:** Web Framework, Routing, Templates, Forms, Jinja Templates, Static Files, APIs using `jsonify`, Message Flashing
+- **Practice:** Basic Python Programs and Exercises
 
 More topics will be added as learning continues.
 
