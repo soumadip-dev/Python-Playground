@@ -7,7 +7,7 @@ A hands-on space to learn and practice Python through small programs and experim
 </h3>
 
 <div align="center">
-  <img src="./01-BASIC-CONCEPTS/banner.jpg" alt="Banner" width="900">
+  <img src="./01-BASIC-CONCEPTS/banner.png" alt="Banner" width="900">
 </div>
 
 ---
