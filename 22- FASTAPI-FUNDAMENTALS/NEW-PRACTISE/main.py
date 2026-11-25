@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from routes import learn
-from schemas.learn import MessageResponse
+from routes import movie
+from schemas.movie import MessageResponse
 
 app = FastAPI()
 
 
-app.include_router(learn.router)
+app.include_router(movie.router)
 
 
 @app.get("/", response_model=MessageResponse)
