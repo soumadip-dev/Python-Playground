@@ -11,4 +11,4 @@ class TaskModel(Base):
     is_completed = Column(Boolean, default=False)
 
 
-# https://youtu.be/xlhGBtHWz4Q?t=470
+
